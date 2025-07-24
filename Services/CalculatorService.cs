@@ -12,10 +12,10 @@ namespace Dummy.Services
             return a + b;
         }
 
-        public string Concat(string a, int b)
+        public string Concat(string a, string b)
         {
             LogServiceCall($"Concat({a}, {b})");
-            return a + b.ToString();
+            return a + b;
         }
 
         public double MultiplyAndAdd(double a, int b)
